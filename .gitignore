@@ -1,0 +1,69 @@
+# Archivos de compilación
+*.class
+
+# Directorio de salida
+/out/
+
+# Archivos generados
+*.log
+*.war
+*.ear
+
+# Directorios específicos de IntelliJ IDEA
+.idea/
+*.iml
+
+# Dependencias descargadas por Maven o Gradle
+.mvn/
+target/
+build/
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos específicos de configuración de entorno
+.env
+
+# Archivos de configuración de Maven
+log/
+logs/
+*.log
+
+# Archivos de configuración de Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de configuración de distribución
+dist/
+
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
