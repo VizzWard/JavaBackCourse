@@ -67,3 +67,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+### Archivos Especificos ###
+src/main/java/org/vzw/usos.html

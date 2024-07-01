@@ -1,0 +1,201 @@
+ORDEN A SEGUIR EN ESTE BLOQUE
+
+Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
+/JavaBackCourse
+    /src
+        /main
+            /java
+                /org
+                    /vzw
+                        /Internet
+                            HowDoesTheInternetWorks.txt
+                            WhatIsHTTP.txt
+                            WhatIsDomainName.txt
+                            WhatIsHosting.txt
+                            DNSAndHowIsWorks.txt
+                            BrowsersAndHowTheyWorks.txt
+                        /PickALanguage .JS, Go, Python, Ruby, Java, C#, PHP, Rust.
+                            /LearnTheFundamentals
+                                /Basics
+                                    BasicSyntax.txt { --> https://www.notion.so/JAVA-ROADMAP-SH-c4aaff8a66d74553bcf5a41a737047e1?pvs=4
+                                                    Basic Terminologies
+                                                        Class
+                                                        Object
+                                                        Method
+                                                        Instance Variables
+                                                    Syntax
+                                                        Comments
+                                                        Source File Name
+                                                        Case Sensitivity
+                                                        Class Names
+                                                        public static void main(String [] args)
+                                                        Method Names
+                                                        Identifiers
+                                                        White Spaces
+                                                        Access Modifiers
+                                                        Java Keywords
+                                                }
+                                /DataTypes
+                                    TiposDeDatos.java
+                                /Arrays
+                                    Definicion.txt
+                                    Estrucutura.txt
+                                    TiposDeDatosEnArreglos.txt
+                                    Declaracion.java
+                                    AccesoAElementos.java    //Indices, manejo de indices, bucles y arreglos
+                                    ArreglosMultidimencionales.java    //estructura, creacion, acceso a elementos.
+                                    ManipulacionDeArreglos.java    //Metodos de copia, busqueda en arreglos, ordenamientos de arreglos, conversion a list
+                                    BusquedaBinaria.java    //Concepto, implementacion, eficiencia y rendimiento
+                                    PracticasAvanzadas.java    //Optimizacion, uso en algoritmos, patrones de diseño, casos de estudio
+                                /Conditionals
+                                /Functions
+                                /DateAndTime
+                                /Loops
+                                /ExceptionHandling
+                                /DataStructures
+                                /OOP
+                                /Interfaces
+                                /Classes
+                                /Packages
+                                /WorkingFilesAndAPI
+                            /GettingDeeper
+                            /Buildtools
+                            /WebFramework
+                            /ORM
+                            /LoggingFrameworks
+                            /JDBC
+                            /Testing
+                        /VersionControlSystems
+                            Git
+                        /RepoHostingServices
+                            /GitHub
+                            /GitLabBasics
+                            /BitBucketBasics
+                        /RelationalDataBases
+                            /PostgreSQL
+                            /MySQLBasics
+                            /OracleBasics
+                        /LearnAboutAPIs
+                            /Authentication
+                                /JWT
+                                /OAuth
+                                /BasicAuthentication
+                                /TokenAuthentication
+                                /CookieBasedAuth
+                            /HATEOAS
+                            /OpenAPISpecs
+                        /Caching
+                            /ServerSide
+                                /Redis
+                                /Memcached
+                            /CDN
+                            /ClientSide
+                        /WebSecurity
+                            /MD5
+                            /SHA
+                            /Scrypt
+                            /Bcrypt
+                            /HTTPS
+                            /OWASPRisk
+                            /CORS
+                            /SSL/TLS
+                            /CSP
+                            /ServerSecurity
+                            /APISecurityBestPractices
+                                /Authentication
+                                /JWT
+                                /AccessControl
+                                /OAuth
+                                /Processing
+                                /Input
+                                /CICD
+                                /Monitoring
+                                /MoreResources
+                        /Testing
+                            /IntegrationTesting
+                            /UnitTesting
+                            /FunctionalTesting
+                        /CICD
+                            /...
+                        /MoreAboutDatabases
+                            /ORMs
+                            /ACID
+                            /Transactions
+                            /N+1
+                            /Normalization
+                            /FailureModes
+                            /ProfilingPerfor
+                        /ScalingDataBases
+                            /DatabaseIndex
+                            /DAtaReplication
+                        /SoftwareDesign&Architecture
+                            /CleanCodePrincipies
+                            /ProgramingParadigms
+                            /ObjectOrientedProgramming
+                            /DesignPrinciples
+                            /DesignPatterns
+                            /AchitecturalPrinciples
+                            /EnterpricePatterns
+                            /ArchitecturalPatterns
+                                /MonolithicApps
+                                /Microservices
+                                /SOA
+                                /Serveless
+                                /ServiceMEsh
+                                /TwelveFactorApps
+                        /Containerization&Virtualization
+                            /Docker
+                                /...
+                            /Kubernetes
+                                /...
+                        /MessageBrokers
+                            /Kafka
+                        /SearchEngines
+                            /Elasticsearch
+                        /WebServers
+                            /Nginx
+                            /Apache
+                        /RealTimeData
+                            /ServerSentEvents
+                            /WebSockets
+                            /LongPolling
+                            /ShortPolling
+                        /GraphQL
+                            /...
+                        /NoSQLDataBases
+                            /DocumentDBs
+                                /MongoDB
+                            /KeyValue
+                                /Redis
+                            /RealTime
+                                /Firebase
+                            /TimeSeries
+                                /InfluxDB
+                            /ColumDBs
+                                /Casandra
+                            /GraphDBs
+                                /Neo4j
+                        /BuildingForScale
+                            /Difference&Usage
+                                /Instrumentation
+                                /Monitoring
+                                /Telemetry
+                            /MigrationStrategies
+                                /GracefulDegradation
+                                /Throttling
+                                /Backpressure
+                                /Loadshifting
+                                /CircuitBreaker
+                                /...
+                            /TypesOfScaling
+                                /...
+                            /Observability
+                                /...
+                        /DevOps
+                            /...
+                        /FullSatck
+                            /...
+
+                        main.java
+            /resources
+        /test

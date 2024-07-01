@@ -1,4 +1,4 @@
-package org.vzw.FundamentosDeProgramacion.SintaxisBasica;
+package org.vzw.PickALanguage.LearnTheFundamentals.Basics;
 
 /**
  * Un array es un objeto contenedor que contiene un número fijo de valores de un mismo tipo.
