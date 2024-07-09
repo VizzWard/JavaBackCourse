@@ -42,7 +42,7 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     Estrucutura.txt
                                     TiposDeDatosEnArreglos.txt
                                     Declaracion.java
-                                    AccesoAElementos.java    //Indices, manejo de indices, bucles y arreglos
+                                    AccesoAElementos.java
                                     ArreglosMultidimencionales.java    //estructura, creacion, acceso a elementos.
                                     ManipulacionDeArreglos.java    //Metodos de copia, busqueda en arreglos, ordenamientos de arreglos, conversion a list
                                     BusquedaBinaria.java    //Concepto, implementacion, eficiencia y rendimiento
