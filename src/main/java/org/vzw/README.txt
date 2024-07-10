@@ -43,10 +43,8 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     TiposDeDatosEnArreglos.txt
                                     Declaracion.java
                                     AccesoAElementos.java
-                                    ArreglosMultidimencionales.java    //estructura, creacion, acceso a elementos.
-                                    ManipulacionDeArreglos.java    //Metodos de copia, busqueda en arreglos, ordenamientos de arreglos, conversion a list
-                                    BusquedaBinaria.java    //Concepto, implementacion, eficiencia y rendimiento
-                                    PracticasAvanzadas.java    //Optimizacion, uso en algoritmos, patrones de diseño, casos de estudio
+                                    ArreglosMultidimencionales.java
+                                    ManipulacionDeArreglos.java
                                 /Conditionals
                                 /Functions
                                 /DateAndTime
