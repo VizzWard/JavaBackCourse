@@ -37,6 +37,10 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                                 }
                                 /DataTypes
                                     TiposDeDatos.java
+                                /Conditionals
+                                /Functions
+                                /Loops
+                                    /ExceptionHandling
                                 /Arrays
                                     Definicion.txt
                                     Estrucutura.txt
@@ -46,7 +50,7 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     ArreglosMultidimencionales.java
                                     ManipulacionDeArreglos.java
                                     /Ejercicios
-                                        EjEstructuraArray.java
+                                        *EjEstructuraArray.java
                                         EjTiposDeDatos.java
                                         EjDeclaracion.java
                                         EjAccesoAElementos.java
@@ -55,11 +59,8 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                         EjBusquedaBinaria.java
                                         EjOrdenamiento.java
                                         EjConversion.java
-                                /Conditionals
-                                /Functions
+
                                 /DateAndTime
-                                /Loops
-                                /ExceptionHandling
                                 /DataStructures
                                 /OOP
                                 /Interfaces
