@@ -51,10 +51,10 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     ManipulacionDeArreglos.java
                                     /Ejercicios
                                         *EjEstructuraArray.java
-                                        EjTiposDeDatos.java
-                                        EjDeclaracion.java
-                                        EjAccesoAElementos.java
-                                        EjArregloMultidimensional.java
+                                        *EjTiposDeDatos.java
+                                        *EjDeclaracion.java
+                                        *EjAccesoAElementos.java
+                                        *EjArregloMultidimensional.java
                                         EjManipulacionJavaUtil.java
                                         EjBusquedaBinaria.java
                                         EjOrdenamiento.java
