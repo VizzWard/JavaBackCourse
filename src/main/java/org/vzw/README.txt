@@ -56,8 +56,8 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                         *EjAccesoAElementos.java
                                         *EjArregloMultidimensional.java
                                         *EjManipulacionJavaUtil.java
-                                        EjBusquedaBinaria.java
-                                        EjOrdenamiento.java
+                                        *EjBusquedaBinaria.java
+                                        *EjOrdenamiento.java
                                         EjConversion.java
 
                                 /DateAndTime
