@@ -16,7 +16,7 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                             BrowsersAndHowTheyWorks.txt
                         /PickALanguage .JS, Go, Python, Ruby, Java, C#, PHP, Rust.
                             /LearnTheFundamentals
-                                /Basics
+                                */Basics
                                     BasicSyntax.txt { --> https://www.notion.so/JAVA-ROADMAP-SH-c4aaff8a66d74553bcf5a41a737047e1?pvs=4
                                                     Basic Terminologies
                                                         Class
@@ -35,13 +35,20 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                                         Access Modifiers
                                                         Java Keywords
                                                 }
-                                /DataTypes
+                                */DataTypes
                                     TiposDeDatos.java
                                 /Conditionals
+                                    If.java
+                                    Operadores.java
+                                    Switch.java
+                                    /Ejercicios
+                                        EjIf.java
+                                        EjOperadores.java
+                                        EjSwitch.java
                                 /Functions
                                 /Loops
                                     /ExceptionHandling
-                                /Arrays
+                                */Arrays
                                     Definicion.txt
                                     Estrucutura.txt
                                     TiposDeDatosEnArreglos.txt
