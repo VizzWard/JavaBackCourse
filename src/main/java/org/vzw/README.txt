@@ -215,3 +215,34 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                         main.java
             /resources
         /test
+
+
+
+
+
+Conceptos escenciales backend:  --> https://www.youtube.com/watch?v=RbWFJRHhF2M
+* Servidor
+* Latencia
+* HTTP & HTTPS
+* API
+* Arquitectura APIs Web
+* Manejar datos en tiempo real
+* JSON & XML
+* Middleware
+* Logs & Monitoreo
+* Rate Limit
+* CRUD
+* Paginacion
+* Mecanismos de autenticacion
+* Cache
+* BD Relacion & No Relacional
+* ORM
+* Query Builder
+* Colas de Mensajeria
+* Message Brokers
+* Webhooks
+* Proxy
+* CI/CD
+* Contenedores
+* Microservicios
+* Servicios Cloud

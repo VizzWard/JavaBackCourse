@@ -5,6 +5,15 @@ public class EjIf {
         /**
          * Ejercicio 1: Escribe un programa que determine si un número entero es positivo, negativo o cero.
          */
+        int numero = 12;
+        
+        if (numero > 0) {
+            System.out.println("El numero " + numero + " es positivo");
+        } else if (numero == 0) {
+            System.out.println("El numero " + numero + " es cero");
+        } else {
+            System.out.println("El numero " + numero + " es negativo");
+        }
 
         /**
          * Ejercicio 2: Escribe un programa que determine si un año es bisiesto.
