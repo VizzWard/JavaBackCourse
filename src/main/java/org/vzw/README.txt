@@ -42,9 +42,9 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     Operadores.java
                                     Switch.java
                                     /Ejercicios
-                                        EjIf.java
-                                        EjOperadores.java
-                                        EjSwitch.java
+                                        *EjIf.java
+                                        *EjOperadores.java
+                                        *EjSwitch.java
                                 /Functions
                                 /Loops
                                     /ExceptionHandling
