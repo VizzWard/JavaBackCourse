@@ -10,10 +10,14 @@ public class EjJavaRecursion {
     }
 
     static int factorial(int n) {
-        if (n > 0){
+        if (n > 0){ //Condicion para no entrar en un bucle infinito
             return n + factorial(n -1);
         } else {
             return 0;
         }
     }
+    /**
+     * Asegúrate de que el método recursivo factorial tenga una condición de
+     * detención adecuada para evitar la recursión infinita.
+     */
 }
