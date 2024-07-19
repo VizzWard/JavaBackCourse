@@ -46,6 +46,11 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                         *EjOperadores.java
                                         *EjSwitch.java
                                 /Functions
+                                    JavaMethods
+                                    JavaMethodParameters
+                                    JavaMethodOverloading
+                                    JavaScope
+                                    JavaRecursion
                                 /Loops
                                     /ExceptionHandling
                                 */Arrays
