@@ -37,7 +37,7 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                                 }
                                 */DataTypes
                                     TiposDeDatos.java
-                                /Conditionals
+                                */Conditionals
                                     If.java
                                     Operadores.java
                                     Switch.java

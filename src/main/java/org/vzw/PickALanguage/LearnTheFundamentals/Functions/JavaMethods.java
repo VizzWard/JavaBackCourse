@@ -13,7 +13,7 @@ public class JavaMethods { //Clase Principal
      *  Se define con el nombre del método, seguido de un paréntesis().
      */
 
-    static void MiMetodo(){
+    static void miMetodo(){
         System.out.println("MiMetodo");
     }
     /**
@@ -27,6 +27,6 @@ public class JavaMethods { //Clase Principal
      * Para llamar al metodo escribes el nombre del metodo, seguido de los parentesis '()'.
      */
     public static void main(String[] args) {
-        MiMetodo();
+        miMetodo();
     }
 }
