@@ -45,25 +45,37 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                         *EjIf.java
                                         *EjOperadores.java
                                         *EjSwitch.java
-                                /Functions
+                                */Functions
                                     JavaMethods.java
                                     JavaMethodParameters.java
                                     JavaMethodOverloading.java
                                     JavaScope.java
                                     JavaRecursion.java
                                     /Ejercicios
-                                        CrearMetodo
-                                        LlamarMetodo
-                                        ParametrosYArgumentos
-                                        MultiplesParametros
-                                        UsoDeCondicionales
-                                        RetornoDeValores
-                                        MethodOverloading
-                                        MethodScope
-                                        JavaRecursion
-                                        HaltingCondition
+                                        *CrearMetodo
+                                        *LlamarMetodo
+                                        *ParametrosYArgumentos
+                                        *MultiplesParametros
+                                        *UsoDeCondicionales
+                                        *RetornoDeValores
+                                        *MethodOverloading
+                                        *MethodScope
+                                        *JavaRecursion
                                 /Loops
-                                    /ExceptionHandling
+                                    ForLoop.java
+                                    WhileLoop.java
+                                    DoWhileLoop.java
+                                    /Ejercicios
+                                /ExceptionHandling
+                                    Introduction //CheckedExceptions , UncheckedExceptions
+                                    TryCatchBlock
+                                    MultipleTryCatch
+                                    NestedTry
+                                    FinallyBlock
+                                    ThrowKeyword
+                                    ThrowingExceptions
+                                    ExceptionHandlingWithOverriding
+                                    CustomExceptions
                                 */Arrays
                                     Definicion.txt
                                     Estrucutura.txt
