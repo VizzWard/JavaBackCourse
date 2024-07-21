@@ -66,6 +66,9 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     WhileLoop.java
                                     DoWhileLoop.java
                                     /Ejercicios
+                                        EjForLoop.java
+                                        EjWhileLoop.java
+                                        EjDoWhileLoop.java
                                 /ExceptionHandling
                                     Introduction //CheckedExceptions , UncheckedExceptions
                                     TryCatchBlock
@@ -274,3 +277,8 @@ Conceptos escenciales backend:  --> https://www.youtube.com/watch?v=RbWFJRHhF2M
 * Contenedores
 * Microservicios
 * Servicios Cloud
+
+
+
+--> PARA GENERAR EL ARCHIVO DE LA ESTRUCTURA DEL PROYECTO FINAL, EN WINDOWS SE USA EL COMANDO:
+            -----> tree /F src > estructura.txt
