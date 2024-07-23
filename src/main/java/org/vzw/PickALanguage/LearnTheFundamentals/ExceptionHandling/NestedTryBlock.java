@@ -1,6 +1,9 @@
 package org.vzw.PickALanguage.LearnTheFundamentals.ExceptionHandling;
 
-/** <title>Nested Try Block</title> */
+/**
+ * <title>Nested Try Block</title>
+ * Doc: https://www.notion.so/Java-Exception-Handling-cc033cd9e6bb4a5688f3ff79f4d0910b?pvs=4
+ */
 
 public class NestedTryBlock {
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
 package org.vzw.PickALanguage.LearnTheFundamentals.ExceptionHandling;
-/** <title>Java Catch Multiple Exceptions</title> */
+/**
+ * <title>Java Catch Multiple Exceptions</title>
+ * Doc: https://www.notion.so/Java-Exception-Handling-cc033cd9e6bb4a5688f3ff79f4d0910b?pvs=4
+ */
 
 public class MultipleTryCatch {
     public static void main(String[] args) {
