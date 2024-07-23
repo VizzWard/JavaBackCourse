@@ -13,7 +13,12 @@ public class ThrowKeyword {
          * imprimir un mensaje de bienvenida a votar.
          */
         //Llamando a a la funcion
-        validate(13);
+
+        try {
+            validate(13);
+        } catch (ArithmeticException e) {
+            System.out.println(e.getMessage());
+        }
         System.out.println("rest of the code...");
         /**
          * El código anterior lanza una excepción no comprobada. Del mismo modo, también
