@@ -210,6 +210,6 @@ public class EjDoWhileLoop {
         if (acceso){
             System.out.print("Acceso exitoso");
         }
-
+        scanner.close();
     }
 }

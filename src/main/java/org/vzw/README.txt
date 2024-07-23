@@ -61,17 +61,17 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                         *MethodOverloading
                                         *MethodScope
                                         *JavaRecursion
-                                /Loops
+                                */Loops
                                     ForLoop.java
                                     WhileLoop.java
                                     DoWhileLoop.java
                                     /Ejercicios
-                                        EjForLoop.java
-                                        EjWhileLoop.java
-                                        EjDoWhileLoop.java
+                                        *EjForLoop.java
+                                        *EjWhileLoop.java
+                                        *EjDoWhileLoop.java
                                 /ExceptionHandling
-                                    Introduction //CheckedExceptions , UncheckedExceptions
-                                    TryCatchBlock
+                                    Introduccion //CheckedExceptions , UncheckedExceptions
+                                    TryCatch
                                     MultipleTryCatch
                                     NestedTry
                                     FinallyBlock
