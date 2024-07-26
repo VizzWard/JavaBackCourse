@@ -73,11 +73,14 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     Introduccion //CheckedExceptions , UncheckedExceptions
                                     TryCatch
                                     MultipleTryCatch
-                                    NestedTry
+                                    NestedTryBlock
                                     FinallyBlock
                                     ThrowKeyword
-                                    ThrowingExceptions
-                                    ExceptionHandlingWithOverriding
+                                    ExceptionPropagation
+                                    ThrowsKeyword
+                                    ThrowAndThrows
+                                    FinalOrFinallyOrFinalize
+                                    ExceptionHandlingwithMethodOverriding
                                     CustomExceptions
                                 */Arrays
                                     Definicion.txt
@@ -120,7 +123,7 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                             /BitBucketBasics
                         /RelationalDataBases
                             /PostgreSQL
-                            /MySQLBasics
+                            /MariaDB
                             /OracleBasics
                         /LearnAboutAPIs
                             /Authentication
