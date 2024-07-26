@@ -1,5 +1,7 @@
 package org.vzw.PickALanguage.LearnTheFundamentals.ExceptionHandling;
 
+import org.vzw.PickALanguage.LearnTheFundamentals.ExceptionHandling.Extras.UserDefinedException;
+
 /**
  * <title>Java throw Exception</title>
  * Doc: https://www.notion.so/Java-Exception-Handling-cc033cd9e6bb4a5688f3ff79f4d0910b?pvs=4
@@ -62,12 +64,3 @@ public class ThrowKeyword {
     }
 }
 
-// La clase representa una excepción definida por el usuario
-class UserDefinedException extends Exception
-{
-    public UserDefinedException(String str)
-    {
-        // Llamada al constructor padre (Excepción)
-        super(str);
-    }
-}
