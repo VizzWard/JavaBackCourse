@@ -20,7 +20,6 @@ public class Ejercicio5 {
         } catch (IllegalArgumentException e){
             System.out.println("Edad incorrecta ingresada ");
         }
-
     }
 
     public static void validateAge(int age) throws IllegalArgumentException {
@@ -28,12 +27,5 @@ public class Ejercicio5 {
         if (age < 0) {
             throw new IllegalArgumentException("La edad introducida debe ser mayor que 0");
         }
-    }
-}
-
-class IllegalArgumentException extends Exception {
-    public IllegalArgumentException (String str) {
-        // llamando al constructor de la Excepción padre
-        super(str);
     }
 }

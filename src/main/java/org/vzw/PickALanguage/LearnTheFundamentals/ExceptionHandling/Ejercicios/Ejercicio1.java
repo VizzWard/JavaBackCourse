@@ -1,4 +1,5 @@
 package org.vzw.PickALanguage.LearnTheFundamentals.ExceptionHandling.Ejercicios;
+import org.vzw.PickALanguage.LearnTheFundamentals.ExceptionHandling.Ejercicios.CustomExceptions.ExitException;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -27,7 +28,7 @@ public class Ejercicio1 {
 
                     //Uso de excepcion personalizada
                     if (dato.equals("esc")){
-                        throw new Exit("Saliendo del programa");
+                        throw new ExitException("Saliendo del programa");
                     }
 
                     divisor = Integer.parseInt(dato);
@@ -39,7 +40,7 @@ public class Ejercicio1 {
                     break InputDatos;
 
                 //Manejar Excepcion para cerrar el programa
-                } catch (Exit x){
+                } catch (ExitException x){
                     System.out.println(x.getMessage());
                     break bucle;
                 }
@@ -66,13 +67,5 @@ public class Ejercicio1 {
         System.out.println("Ingresa el numero divisor:");
         String dato = scanner.next();
         return dato;
-    }
-}
-
-//Excepcion para cerrar el programa
-class Exit extends Exception {
-    public Exit (String str) {
-        // llamando al constructor de la Excepción padre
-        super(str);
     }
 }
