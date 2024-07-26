@@ -1,6 +1,7 @@
 package org.vzw.PickALanguage.LearnTheFundamentals.ExceptionHandling.Ejercicios;
 
 /**
+ * Ejercicio 2:
  * Escribe un programa que convierta una lista de cadenas a números
  * enteros y maneje posibles excepciones como NumberFormatException
  * y ArrayIndexOutOfBoundsException.
