@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.Arrays;
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSArrays;
 
 /**
  * La declaración de un arreglo en Java es el proceso mediante el cual se define un arreglo y se reserva espacio en

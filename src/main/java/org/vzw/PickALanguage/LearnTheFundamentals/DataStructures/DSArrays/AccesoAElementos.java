@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.Arrays;
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSArrays;
 
 /**
  *

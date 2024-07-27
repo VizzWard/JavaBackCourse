@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.Arrays.Ejercicios;
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSArrays.Ejercicios;
 
 import java.util.ArrayList;
 import java.util.Arrays;

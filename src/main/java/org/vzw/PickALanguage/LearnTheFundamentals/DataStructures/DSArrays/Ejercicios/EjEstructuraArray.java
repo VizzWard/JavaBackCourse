@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.Arrays.Ejercicios;
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSArrays.Ejercicios;
 
 public class EjEstructuraArray {
     public static void main(String[] args) {

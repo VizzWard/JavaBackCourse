@@ -69,7 +69,7 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                         *EjForLoop.java
                                         *EjWhileLoop.java
                                         *EjDoWhileLoop.java
-                                /ExceptionHandling
+                                */ExceptionHandling
                                     Introduccion //CheckedExceptions , UncheckedExceptions
                                     TryCatch
                                     MultipleTryCatch
@@ -82,27 +82,38 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     FinalOrFinallyOrFinalize
                                     ExceptionHandlingwithMethodOverriding
                                     CustomExceptions
-                                */Arrays
-                                    Definicion.txt
-                                    Estrucutura.txt
-                                    TiposDeDatosEnArreglos.txt
-                                    Declaracion.java
-                                    AccesoAElementos.java
-                                    ArreglosMultidimencionales.java
-                                    ManipulacionDeArreglos.java
-                                    /Ejercicios
-                                        *EjEstructuraArray.java
-                                        *EjTiposDeDatos.java
-                                        *EjDeclaracion.java
-                                        *EjAccesoAElementos.java
-                                        *EjArregloMultidimensional.java
-                                        *EjManipulacionJavaUtil.java
-                                        *EjBusquedaBinaria.java
-                                        *EjOrdenamiento.java
-                                        *EjConversion.java
-
-                                /DateAndTime
                                 /DataStructures
+                                    /Basics
+                                    */DSArray
+                                        Definicion.txt
+                                        Estrucutura.txt
+                                        TiposDeDatosEnArreglos.txt
+                                        Declaracion.java
+                                        AccesoAElementos.java
+                                        ArreglosMultidimencionales.java
+                                        ManipulacionDeArreglos.java
+                                        /Ejercicios
+                                            *EjEstructuraArray.java
+                                            *EjTiposDeDatos.java
+                                            *EjDeclaracion.java
+                                            *EjAccesoAElementos.java
+                                            *EjArregloMultidimensional.java
+                                            *EjManipulacionJavaUtil.java
+                                            *EjBusquedaBinaria.java
+                                            *EjOrdenamiento.java
+                                            *EjConversion.java
+                                    /DSLinkedList
+                                    /DSStack
+                                    /DSQueue
+                                    /DSTree
+                                    /DSGraph
+                                    /DSSearching
+                                    /DSSorting
+                                    /SinglyLinkedListPrograms
+                                    /DoublyLinkedListPrograms
+                                    /CricularLinkedListPrograms
+                                    /TreePrograms
+                                /DateAndTime
                                 /OOP
                                 /Interfaces
                                 /Classes
