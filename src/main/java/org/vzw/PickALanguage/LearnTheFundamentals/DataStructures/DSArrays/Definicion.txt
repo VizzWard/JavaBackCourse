@@ -1,5 +1,7 @@
 <title>Definicion de Arreglos</title>
 
+Notion: https://www.notion.so/DS-Array-4863672efa754f4c9f84802a8ee4d47d?pvs=4
+
 Un arreglo en Java es una estructura de datos que permite almacenar varios valores o elementos de un mismo tipo en una única variable.
 
 <ul>
