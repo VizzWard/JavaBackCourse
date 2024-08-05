@@ -83,7 +83,7 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                     ExceptionHandlingwithMethodOverriding
                                     CustomExceptions
                                 /DataStructures
-                                    /Basics
+                                    /DSBasics
                                     */DSArray
                                         Definicion.txt
                                         Estrucutura.txt
