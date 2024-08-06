@@ -1,0 +1,3 @@
+Toda la info:
+DS Linked List: https://www.notion.so/DS-Linked-List-7512f2809b224e1fac7d85280e864003?pvs=4
+Singly Linked List: https://www.notion.so/Singly-Linked-List-d688ca1158114d00a1b49e9430ab84b9?pvs=4

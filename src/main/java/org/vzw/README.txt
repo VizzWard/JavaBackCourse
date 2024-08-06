@@ -103,6 +103,8 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                             *EjOrdenamiento.java
                                             *EjConversion.java
                                     /DSLinkedList
+                                        Definicion.txt
+
                                     /DSStack
                                     /DSQueue
                                     /DSTree
