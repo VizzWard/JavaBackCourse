@@ -2,6 +2,9 @@ package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSLinkedList;
 
 import java.util.LinkedList;
 
+/**
+ * Doubly Linked List usando java.util.LinkedList
+ */
 public class LinkedListExample {
     public static void main(String[] args) {
         // Declaración e inicialización de la LinkedList
