@@ -174,6 +174,10 @@ class SinglyLinkedList {
         Node temp = head;
         head = head.next;
 
+        //Eliminar el nodo temporal
+        temp = null;
+
+        //Retornar el nuevo head
         return head;
     }
 
