@@ -37,8 +37,8 @@ class SinglyLinkedList {
         System.out.println();
     }
 
-    // Metodo para buscar un valor en la lista enlazada
-    boolean searchLinkedList(Node head, int target)
+    // Metodo para buscar si existe un valor en la lista enlazada
+    boolean searchLinkedList(Node head, Object target)
     {
         // Recorrer la lista enlazada
         while (head != null) {
@@ -54,6 +54,28 @@ class SinglyLinkedList {
         }
         // Valor no encontrado
         return false;
+    }
+
+    // Función para hallar el dato en una posicion determinada
+    Object searchList(Node head, int pos) {
+
+        int contador = 0;
+        // Empezar por la cabeza de la lista
+        Node current = head;
+
+        // Recorre la lista e incrementa el contador cada ciclo
+        search:
+        while (current != null) {
+
+            if (contador == pos) {
+                break search;
+            }
+            contador++;
+            current = current.next;
+        }
+
+        // Devuelve la longitud final de la lista enlazada
+        return current.data;
     }
 
     // Función para hallar la longitud de la lista enlazada
@@ -77,7 +99,7 @@ class SinglyLinkedList {
 
     // Función para insertar un nuevo nodo al principio del archivo
     // linked list
-    Node insertAtBeginning(Node head, int value) {
+    Node insertAtBeginning(Node head, Object value) {
         // Crea un nuevo nodo con el valor dado
         Node newNode = new Node(value);
 
@@ -95,7 +117,7 @@ class SinglyLinkedList {
     }
 
     // Método para añadir un nuevo nodo al final de la lista
-    void add(int data) {
+    void add(Object data) {
         Node newNode = new Node(data);
         if (head == null) {
             head = newNode;
@@ -111,7 +133,7 @@ class SinglyLinkedList {
 
 
     // Método para insertar un nodo en una posición específica
-    public void insertPos(int pos, int data) {
+    public void insertPos(int pos, Object data) {
         // Verificar si la posición es válida
         System.out.println(size);
         if (pos < 1 || pos > size + 1) {

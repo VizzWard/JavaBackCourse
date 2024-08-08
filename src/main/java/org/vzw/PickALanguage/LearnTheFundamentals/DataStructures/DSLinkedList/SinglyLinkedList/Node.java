@@ -1,12 +1,12 @@
 package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSLinkedList.SinglyLinkedList;
 
-//clase Nodo
-public class Node {
-    int data;   // Datos almacenados en el nodo
+//clase Nodo - Para Singly Linked List
+class Node {
+    Object data;   // Datos almacenados en el nodo
     Node next;  // Referencia al siguiente nodo
 
     // Constructor para inicializar el nodo con un valor
-    Node(int data) {
+    Node(Object data) {
         this.data = data;
         this.next = null;
     }

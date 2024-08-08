@@ -12,10 +12,10 @@ public class Declaracion {
         list.add(100);
         list.add(200);
         list.add(3);
+        list.add("quince");
 
         // Imprimir la lista
-        list.printList(); // Salida: 10 20 30
-
+        list.printList();
 
         // Crear una lista enlazada con elementos iniciales
         int[] initialElements = {10, 20, 30, 40};
@@ -34,6 +34,10 @@ public class Declaracion {
         } else {
             System.out.println("Valor inexistente");
         }
+
+        //Funcion para buscar en una posicion determinada
+        String dato = String.valueOf(list.searchList(list.head, 6));
+        System.out.println(dato);
 
         //Saber la longitud de una lista:
         int longitud = list.findLength(list.head);
