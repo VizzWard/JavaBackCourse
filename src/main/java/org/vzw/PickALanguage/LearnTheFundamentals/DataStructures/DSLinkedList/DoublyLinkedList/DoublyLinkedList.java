@@ -143,4 +143,53 @@ class DoublyLinkedList {
         current.next.prev = current.prev;
         size--;
     }
+
+    // Searching - Buscar si existe un valor en la lista y retornar true en caso de ser verdadero
+    boolean search(Object value){
+        Node current = head;
+        int position = 0;
+        bucle:
+        while (current != null) {
+            if (current.data == value) {
+                System.out.println("El elemnto " + current.data + " esta en la posicion: " + position);
+                return true;
+            }
+            current = current.next;
+            position++;
+        }
+        System.out.println("El elemnto " + value + " no existe en la lista" );
+        return false;
+    }
+
+    // Searching - Buscar si existe un valor en la lista y retornar la posicion en la que se encuentra
+    int searchPosition(Object value){
+        Node current = head;
+        int position = 0;
+        bucle:
+        while (current != null) {
+            if (current.data == value) {
+                System.out.println("El elemnto " + current.data + " esta en la posicion: " + position);
+                return position;
+            }
+            current = current.next;
+            position++;
+        }
+        return -1;
+    }
+
+    //Finding - Buscar el valor en una posicion
+    Object find(int index){
+        Node current = head;
+        int position = 0;
+        if (index < 1 || index > size + 1) {
+            System.out.print("Posición inválida! - ");
+            return null;
+        } else {
+            while (position < index) {
+                current = current.next;
+                position++;
+            }
+            return current.data;
+        }
+    }
 }
