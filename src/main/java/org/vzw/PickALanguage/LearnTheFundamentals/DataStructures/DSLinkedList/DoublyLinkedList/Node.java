@@ -13,4 +13,3 @@ class Node {
         this.prev = null;
     }
 }
-

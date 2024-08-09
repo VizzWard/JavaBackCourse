@@ -1,9 +1,9 @@
 package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSLinkedList.DoublyLinkedList;
 
 class DoublyLinkedList {
-    Node head;  // Cabeza de la lista enlazada, referencia al primer nodo
-    Node tail;
-    int size; // Tamaño de la lista
+    Node head;  // Head -> Referencia al primer nodo
+    Node tail;  // Tail -> Referencia al ultimo nodo
+    int size;   // size -> Referencia al tamaño de la lista
 
     // Constructor
     DoublyLinkedList() {
@@ -22,14 +22,17 @@ class DoublyLinkedList {
             newNode.prev = tail; // El nuevo nodo apunta a tail como su nodo anterior
             tail = newNode; // tail se actualiza al nuevo nodo
         }
+
         size++;
     }
 
-    // Método para añadir un nodo al principio de la lista  - OVERLOADING
-    public void add(Object data, boolean atFirst) {
-        if (!atFirst) {
-            add(data); // Reutilizamos el método anterior para añadir al final
-        } else {
+    // Método para añadir un nodo en una posición específica - OVERLOADING
+    public void add(Object data, int position) {
+        if (position < 0 || position > size + 1) {
+            System.out.println("Posición inválida!");
+            return;
+        }
+        if (position == 0) {
             Node newNode = new Node(data);
             if (head == null) {
                 head = newNode;
@@ -38,19 +41,6 @@ class DoublyLinkedList {
                 head.prev = newNode;
                 head = newNode;
             }
-            size++;
-        }
-    }
-
-    // Método para añadir un nodo en una posición específica - OVERLOADING
-    public void add(Object data, int position) {
-        if (position < 1 || position > size + 1) {
-            System.out.println("Posición inválida!");
-            return;
-        }
-
-        if (position < 1) {
-            add(data);
         } else {
             Node newNode = new Node(data);
             Node current = head;
@@ -63,8 +53,9 @@ class DoublyLinkedList {
                 current.next.prev = newNode;
             }
             current.next = newNode;
-            size++;
         }
+
+        size++;
     }
 
 
@@ -105,21 +96,6 @@ class DoublyLinkedList {
         size--;
     }
 
-    //Metodo para eliminar el primer elemento
-    void delete(boolean atFirst) {
-        if (head == null) {
-            System.out.println("List is already empty!");
-        } else if (head == tail) {
-            // Solo hay un elemento en la lista
-            head = null;
-            tail = null;
-        } else {
-            head = head.next;
-            head.prev = null;
-        }
-        size--;
-    }
-
     //Metodo para eliminar un nodo en una posición específica - OVERLOADING
     void delete(int pos) {
         if (pos < 0 || pos > size + 1) {
@@ -127,37 +103,40 @@ class DoublyLinkedList {
             return;
         }
         if (pos == 0) {
-            delete(true);
-            return;
-        }
-
-        if (pos == size) {
+            if (head == null) {
+                System.out.println("List is already empty!");
+            } else if (head == tail) {
+                // Solo hay un elemento en la lista
+                head = null;
+                tail = null;
+            } else {
+                head = head.next;
+                head.prev = null;
+            }
+        } else if (pos == size) {
             delete();
             return;
+        } else {
+            Node current = head;
+            for (int i = 1; i < pos; i++) {
+                current = current.next;
+            }
+            current.prev.next = current.next;
+            current.next.prev = current.prev;
         }
-        Node current = head;
-        for (int i = 1; i < pos; i++) {
-            current = current.next;
-        }
-        current.prev.next = current.next;
-        current.next.prev = current.prev;
+
         size--;
     }
 
     // Searching - Buscar si existe un valor en la lista y retornar true en caso de ser verdadero
     boolean search(Object value){
         Node current = head;
-        int position = 0;
-        bucle:
         while (current != null) {
             if (current.data == value) {
-                System.out.println("El elemnto " + current.data + " esta en la posicion: " + position);
                 return true;
             }
             current = current.next;
-            position++;
         }
-        System.out.println("El elemnto " + value + " no existe en la lista" );
         return false;
     }
 
@@ -165,10 +144,8 @@ class DoublyLinkedList {
     int searchPosition(Object value){
         Node current = head;
         int position = 0;
-        bucle:
         while (current != null) {
             if (current.data == value) {
-                System.out.println("El elemnto " + current.data + " esta en la posicion: " + position);
                 return position;
             }
             current = current.next;
