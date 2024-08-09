@@ -43,6 +43,7 @@ public class Declaracion {
 
         //Llamada al metodo searchPosition - para ver si el elemento existe y retornar la posicion
         int posicion = list.searchPosition("quince");
+        System.out.println(posicion);
 
         //Llamada al metodo find - para buscar el dato que esta en una posicion
         Object dato = list.find(8);

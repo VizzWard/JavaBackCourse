@@ -122,7 +122,7 @@ class DoublyLinkedList {
 
     //Metodo para eliminar un nodo en una posición específica - OVERLOADING
     void delete(int pos) {
-        if (pos < 1 || pos > size + 1) {
+        if (pos < 0 || pos > size + 1) {
             System.out.println("Posición inválida!");
             return;
         }
