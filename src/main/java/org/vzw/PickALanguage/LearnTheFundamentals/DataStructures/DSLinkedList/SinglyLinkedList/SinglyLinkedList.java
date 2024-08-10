@@ -135,7 +135,6 @@ class SinglyLinkedList {
     // Método para insertar un nodo en una posición específica
     public void insertPos(int pos, Object data) {
         // Verificar si la posición es válida
-        System.out.println(size);
         if (pos < 1 || pos > size + 1) {
             System.out.println("Invalid position!");
             return;
