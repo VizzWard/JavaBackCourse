@@ -33,9 +33,9 @@ class CircularSinglyLinkedList {
         }
     }
 
-    void add(Object data, int index) {
+    void add(Object data, int index) throws ArithmeticException {
         if (index < 0 || index > size + 1) {
-            System.out.println("Posicion no existente!");
+            throw new ArithmeticException("Posicion no existente!");
         } else {
             if (index == 0) {
                 Node newNode = new Node(data);
@@ -64,10 +64,10 @@ class CircularSinglyLinkedList {
     }
 
     //Print method
-    void printList(){
+    void printList() throws NullPointerException {
         Node current = head;
         if (head == null) {
-            System.out.println("Vacio");
+            throw new NullPointerException("La lista esta vacia");
         } else {
             do {
                 System.out.print(current.data + " ");
@@ -79,9 +79,9 @@ class CircularSinglyLinkedList {
     }
 
     //Delete methods -> delete end | delete first / delete especific
-    void delete(){
+    void delete() throws NullPointerException {
         if (head == null) {
-            System.out.println("Vacio");
+            throw new NullPointerException("La lista esta vacia");
         } else {
             if (head == tail) {
                 head = tail = null;
@@ -100,11 +100,11 @@ class CircularSinglyLinkedList {
         }
     }
 
-    void delete(int index) {
+    void delete(int index) throws NullPointerException, ArithmeticException {
         if (index < 0 || index > size - 1) {
-            System.out.println("Posicion no existente!");
+            throw new ArithmeticException("Posicion no existente!");
         } else if (head == null) {
-            System.out.println("Vacio");
+            throw new NullPointerException("La lista esta vacia");
         } else {
             if (index == 0) {
                 if (head == tail) {
@@ -129,9 +129,9 @@ class CircularSinglyLinkedList {
 
     //Search methods
     //Buscar si existe un valor en la lista y retornar true en caso de ser verdadero
-    boolean search(Object data) {
+    boolean search(Object data) throws NullPointerException {
         if (head == null) {
-            System.out.println("La lista esta vacia");
+            throw new NullPointerException("La lista esta vacia");
         } else {
             Node current = head;
             do {
@@ -145,9 +145,9 @@ class CircularSinglyLinkedList {
     }
 
     //Buscar si existe un valor en la lista y retornar la posicion en la que se encuentra
-    int searchIndex(Object data) {
+    int searchIndex(Object data) throws NullPointerException {
         if (head == null) {
-            System.out.println("La lista esta vacia");
+            throw new NullPointerException("La lista esta vacia");
         } else  {
             int position = 0;
             Node current = head;
@@ -163,4 +163,18 @@ class CircularSinglyLinkedList {
     }
 
     //Find method
+    //Buscar que dato esta en el elemento x
+    Object find(int index) throws ArithmeticException, NullPointerException{
+        if (head == null) {
+            throw new NullPointerException("La lista esta vacia");
+        } else if (index < 0 || index > size - 1) {
+            throw new ArithmeticException("Posicion no existente!");
+        } else {
+            Node current = head;
+            for (int i = 1; i < index; i++) {
+                current = current.next;
+            }
+            return current.data;
+        }
+    }
 }

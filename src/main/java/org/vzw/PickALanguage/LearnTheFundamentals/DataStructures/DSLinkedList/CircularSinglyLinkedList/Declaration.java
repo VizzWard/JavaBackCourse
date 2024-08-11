@@ -12,31 +12,40 @@ public class Declaration {
         list.add(17);
         list.add(18);
 
-        //añadir en una posicion (si es 0, añade al imicio)
-        list.add("A", 7);
-        System.out.println(list.size);
+        try {
+            //añadir en una posicion (si es 0, añade al imicio)
+            list.add("A", 7);
+            System.out.println(list.size);
 
-        //Imprimir lista
-        list.printList();
+            //Imprimir lista
+            list.printList();
 
-        //Eliminar el ultimo elemento
-        list.delete();
-        list.printList();
+            //Eliminar el ultimo elemento
+            list.delete();
+            list.printList();
 
-        //Eliminar el primer elemento
-        list.delete(0);
-        list.printList();
+            //Eliminar el primer elemento
+            list.delete(0);
+            list.printList();
 
-        //Eliminar una posicion especifica
-        list.delete(4);
-        list.printList();
+            //Eliminar una posicion especifica
+            list.delete(4);
+            list.printList();
 
-        //Buscar si existe un elemento en la lista
-        boolean elemento = list.search(18);
-        System.out.println(elemento);
+            //Buscar si existe un elemento en la lista
+            boolean elemento = list.search(18);
+            System.out.println(elemento);
 
-        //Buscar la posicion de un elemento
-        int posicion = list.searchIndex(18);
-        System.out.println(posicion);
+            //Buscar la posicion de un elemento
+            int posicion = list.searchIndex(18);
+            System.out.println(posicion);
+
+            //Find
+            Object element = list.find(18);
+            System.out.println(element);
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 }
