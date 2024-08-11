@@ -41,5 +41,19 @@ public class CircularDoublyLinkedList {
                 current = current.next;
             } while (current != head);
         }
+        System.out.println();
+    }
+
+    void printListReverse() throws NullPointerException {
+        Node current = tail;
+        if (current == null) {
+            throw new NullPointerException("La lista esta vacia");
+        } else {
+            do {
+                System.out.print(current.data + " ");
+                current = current.prev;
+            } while (current != tail);
+        }
+        System.out.println();
     }
 }

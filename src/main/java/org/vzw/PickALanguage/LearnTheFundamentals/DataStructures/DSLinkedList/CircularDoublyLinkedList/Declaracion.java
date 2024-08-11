@@ -10,5 +10,6 @@ public class Declaracion {
         list.add(4);
 
         list.printList();
+        list.printListReverse();
     }
 }
