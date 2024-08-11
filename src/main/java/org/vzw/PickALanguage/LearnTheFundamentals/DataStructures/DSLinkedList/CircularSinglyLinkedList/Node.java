@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSLinkedList.DSCircularSinglyLinkedList;
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSLinkedList.CircularSinglyLinkedList;
 
 class Node {
     Object data;

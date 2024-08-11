@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSLinkedList.DSCircularSinglyLinkedList;
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSLinkedList.CircularSinglyLinkedList;
 
 public class Declaration {
     public static void main(String[] args) {
@@ -11,10 +11,17 @@ public class Declaration {
         list.add(16);
         list.add(17);
         list.add(17);
+
+        //añadir en una posicion (si es 0, añade al imicio)
+        list.add("A", 7);
         System.out.println(list.size);
-        list.add("A", 5);
 
-
+        //Imprimir lista
         list.printList();
+
+        //Eliminar el ultimo elemento
+        list.delete();
+        list.printList();
+        System.out.println(list.size);
     }
 }
