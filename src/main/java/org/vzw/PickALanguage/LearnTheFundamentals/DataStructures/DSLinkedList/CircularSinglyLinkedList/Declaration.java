@@ -10,7 +10,7 @@ public class Declaration {
         list.add(15);
         list.add(16);
         list.add(17);
-        list.add(17);
+        list.add(18);
 
         //añadir en una posicion (si es 0, añade al imicio)
         list.add("A", 7);
@@ -22,6 +22,21 @@ public class Declaration {
         //Eliminar el ultimo elemento
         list.delete();
         list.printList();
-        System.out.println(list.size);
+
+        //Eliminar el primer elemento
+        list.delete(0);
+        list.printList();
+
+        //Eliminar una posicion especifica
+        list.delete(4);
+        list.printList();
+
+        //Buscar si existe un elemento en la lista
+        boolean elemento = list.search(18);
+        System.out.println(elemento);
+
+        //Buscar la posicion de un elemento
+        int posicion = list.searchIndex(18);
+        System.out.println(posicion);
     }
 }

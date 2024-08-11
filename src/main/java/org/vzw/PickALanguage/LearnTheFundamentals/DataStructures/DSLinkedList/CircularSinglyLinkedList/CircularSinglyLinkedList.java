@@ -100,8 +100,67 @@ class CircularSinglyLinkedList {
         }
     }
 
-    //Search methods
+    void delete(int index) {
+        if (index < 0 || index > size - 1) {
+            System.out.println("Posicion no existente!");
+        } else if (head == null) {
+            System.out.println("Vacio");
+        } else {
+            if (index == 0) {
+                if (head == tail) {
+                    head = tail = null;
+                    size = 0;
+                } else {
+                    head = head.next;
+                    tail.next = head;
+                    size--;
+                }
+            } else if (index == size) {
+                delete();
+            } else {
+                Node current = head;
+                for (int i = 1; i < index; i++) {
+                    current = current.next;
+                }
+                current.next = current.next.next;
+            }
+        }
+    }
 
+    //Search methods
+    //Buscar si existe un valor en la lista y retornar true en caso de ser verdadero
+    boolean search(Object data) {
+        if (head == null) {
+            System.out.println("La lista esta vacia");
+        } else {
+            Node current = head;
+            do {
+                if (current.data.equals(data)) {
+                    return true;
+                }
+                current = current.next;
+            } while (current != head);
+        }
+        return false;
+    }
+
+    //Buscar si existe un valor en la lista y retornar la posicion en la que se encuentra
+    int searchIndex(Object data) {
+        if (head == null) {
+            System.out.println("La lista esta vacia");
+        } else  {
+            int position = 0;
+            Node current = head;
+            do {
+                if (current.data.equals(data)) {
+                    return position;
+                }
+                current = current.next;
+                position++;
+            } while (current != head);
+        }
+        return -1;
+    }
 
     //Find method
 }
