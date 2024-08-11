@@ -5,6 +5,7 @@ class CircularSinglyLinkedList {
     Node tail;
     int size;
 
+    //Contructor
     CircularSinglyLinkedList() {
         this.head = null;
         this.tail = null;
