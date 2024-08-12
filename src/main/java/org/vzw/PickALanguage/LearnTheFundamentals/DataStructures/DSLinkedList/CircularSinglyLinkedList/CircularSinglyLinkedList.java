@@ -34,9 +34,9 @@ class CircularSinglyLinkedList {
         }
     }
 
-    void add(Object data, int index) throws ArithmeticException {
+    void add(Object data, int index) throws IndexOutOfBoundsException {
         if (index < 0 || index > size + 1) {
-            throw new ArithmeticException("Posicion no existente!");
+            throw new IndexOutOfBoundsException("Posicion no existente!");
         } else {
             if (index == 0) {
                 Node newNode = new Node(data);
@@ -101,9 +101,9 @@ class CircularSinglyLinkedList {
         }
     }
 
-    void delete(int index) throws NullPointerException, ArithmeticException {
+    void delete(int index) throws NullPointerException, IndexOutOfBoundsException {
         if (index < 0 || index > size - 1) {
-            throw new ArithmeticException("Posicion no existente!");
+            throw new IndexOutOfBoundsException("Posicion no existente!");
         } else if (head == null) {
             throw new NullPointerException("La lista esta vacia");
         } else {
