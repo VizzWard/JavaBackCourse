@@ -154,5 +154,4 @@ public class CircularDoublyLinkedList {
             return current.data;
         }
     }
-
 }

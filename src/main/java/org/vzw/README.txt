@@ -104,6 +104,22 @@ Recursos: ROADMAP.SH ---> https://roadmap.sh/backend
                                             *EjConversion.java
                                     /DSLinkedList
                                         Definicion.txt
+                                        /SinglyLinkedList
+                                            SinglyLinkedList
+                                            Node
+                                            Declaracion
+                                        /DoublyLinkedList
+                                            DoublyLinkedList
+                                            Node
+                                            Declaracion
+                                        /CircularSinglyLinkedList
+                                            CircularSinglyLinkedList
+                                            Node
+                                            Declaracion
+                                        /CircularDoublyLinkedList
+                                            CircularDoublyLinkedList
+                                            Node
+                                            Declaracion
 
                                     /DSStack
                                     /DSQueue

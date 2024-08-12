@@ -1,3 +1,16 @@
 Toda la info:
-DS Linked List: https://www.notion.so/DS-Linked-List-7512f2809b224e1fac7d85280e864003?pvs=4
-Singly Linked List: https://www.notion.so/Singly-Linked-List-d688ca1158114d00a1b49e9430ab84b9?pvs=4
+
+DS Linked List:
+    https://www.notion.so/DS-Linked-List-7512f2809b224e1fac7d85280e864003?pvs=4
+
+Singly Linked List:
+    https://www.notion.so/Singly-Linked-List-d688ca1158114d00a1b49e9430ab84b9?pvs=4
+
+Doubly Linked List:
+    https://www.notion.so/Doubly-Linked-List-bf803e6b5fea473bbfab51b329ac19bd?pvs=4
+
+Circular Singly Linked List:
+    https://www.notion.so/Circular-Singly-Linked-List-f2f2313da45146cfb4dfe792e4f612c4?pvs=4
+
+Circular Doubly Linked List:
+    https://www.notion.so/Circular-Doubly-Linked-List-8bb93f1a382641b6bbebe8b1c04ca9b5?pvs=4
