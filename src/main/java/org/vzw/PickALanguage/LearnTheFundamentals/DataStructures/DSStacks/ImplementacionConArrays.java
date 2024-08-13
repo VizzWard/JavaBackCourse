@@ -24,6 +24,14 @@ public class ImplementacionConArrays {
         System.out.println("Elemento sacado del stack: " + myStack.pop());
         System.out.println("Elemento sacado del stack: " + myStack.pop());
         System.out.println("Elemento sacado del stack: " + myStack.pop()); // Intento de pop en un stack vacío
+
+        // comprobar si la stack está vacía
+        if (myStack.isEmpty()) {
+            System.out.println("The stack is empty");
+        }
+        else {
+            System.out.println("The stack is not empty");
+        }
     }
 }
 
@@ -71,5 +79,20 @@ class Stack {
         } else {
             return stack[top];
         }
+    }
+
+    // Función de utilidad para devolver el tamaño de la stack
+    public int size() {
+        return top + 1;
+    }
+
+    // Función de utilidad para verificar si la stack está vacía o no
+    public boolean isEmpty() {
+        return top == -1;               // o return size() == 0;
+    }
+
+    // Función de utilidad para verificar si la stack está llena o no
+    public boolean isFull() {
+        return top == n - 1;     // o return size() == capacity;
     }
 }
