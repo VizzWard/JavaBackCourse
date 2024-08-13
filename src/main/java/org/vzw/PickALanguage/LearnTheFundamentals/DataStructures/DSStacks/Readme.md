@@ -1,5 +1,6 @@
 # Stacks
-# Que es un Stack?
+
+## Que es un Stack?
 
 Una Pila es una estructura de datos lineal que sigue el principio LIFO (Last in, First Out). La Pila tiene un extremo, mientras que la Cola tiene dos extremos (anterior y posterior). Sólo contiene un puntero, el puntero superior, que apunta al elemento más alto de la pila. Cada vez que se añade un elemento en la pila, se añade en la parte superior de la pila, y el elemento sólo se puede eliminar de la pila. En otras palabras, una pila puede definirse como un contenedor en el que la inserción y la eliminación pueden realizarse desde un extremo conocido como la parte superior de la pila.
 
