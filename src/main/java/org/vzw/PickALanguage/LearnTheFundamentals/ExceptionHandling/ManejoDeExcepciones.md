@@ -293,19 +293,19 @@ Regla 1: Si el método de la superclase declara una excepción, el método sobre
 
 - Ejemplo en caso de que un método anulado de una subclase declare una excepción padre
     
-    Ejemplo en proyecto archivo → `TestExceptionChild2.java` 
+    - Ejemplo en proyecto archivo → `Ejercicios/TestExceptionChild2.java` 
     
 - Ejemplo en caso de que el método anulado de una subclase declare la misma excepción
     
-    Ejemplo en proyecto archivo → `TestExceptionChild3.java` 
+    - Ejemplo en proyecto archivo → `Ejercicios/TestExceptionChild3.java` 
     
 - Ejemplo en caso de que un método sobrescrito de una subclase declare una excepción de subclase
     
-    Ejemplo en proyecto archivo → `TestExceptionChild4.java` 
+    - Ejemplo en proyecto archivo → `Ejercicios/TestExceptionChild4.java` 
     
 - Ejemplo en caso de que el método anulado de la subclase no declare ninguna excepción
     
-    Ejemplo en proyecto archivo → `TestExceptionChild5.java` 
+    - Ejemplo en proyecto archivo → `Ejercicios/TestExceptionChild5.java` 
     
 
 # **Java Custom Exception**
