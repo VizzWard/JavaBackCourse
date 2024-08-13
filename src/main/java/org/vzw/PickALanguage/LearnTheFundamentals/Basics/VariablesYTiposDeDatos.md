@@ -70,7 +70,7 @@ Los Tipos de Datos en Java se definen como especificadores que asignan diferente
 
 2. Tipos de Datos No Primitivos: que incluyen clases, arreglos e interfaces.
 
-![img](img/datatypes.png)
+![img](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.btechsmartclass.com%2Fjava%2Fjava_images%2Fjava-data-types.jpg&f=1&nofb=1&ipt=1fa34cf34fe057ac2363edeb0331555c677e29a800b21b29f676796c1a11c11a&ipo=images)
 
 ### Tipos de datos primitivos
 Los Tipos de Datos Primitivos están predefinidos y disponibles dentro del lenguaje Java. Los valores primitivos no comparten estado con otros valores primitivos. Hay 8 tipos primitivos:
