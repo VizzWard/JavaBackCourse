@@ -37,7 +37,9 @@ El motor de renderización de un navegador es responsable de mostrar el contenid
 ## El flujo principal
 
 Flujo básico del motor de renderización:
+
 ![img](img/img7.png)
+
 El motor de renderización comenzará a analizar el documento HTML y convertirá los elementos en nodos DOM en un árbol denominado "árbol de contenido". El motor analizará los datos de estilo, tanto en archivos CSS externos como en elementos de estilo. La información de estilo junto con las instrucciones visuales en el código HTML se usará para crear otro árbol: el árbol de renderización.
 
 El árbol de renderización contiene rectángulos con atributos visuales, como el color y las dimensiones. Los rectángulos están en el orden correcto para que se muestren en la pantalla.
