@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.Basics.DataTypes;
+package org.vzw.PickALanguage.LearnTheFundamentals.Basics;
 
 /**
  * Java es de tipado estático, lo que significa que todas las variables deben declararse antes de poder utilizarse.
@@ -9,8 +9,6 @@ package org.vzw.PickALanguage.LearnTheFundamentals.Basics.DataTypes;
  * realizarse con ella.
  *
  *  Hay 7 tipos de datos primitivos: byte, short, int, long, float, double, boolean y char.
- *
- * Mas informacion: https://devdoc.net/javaxe/JavaTutorial_20160719/java/nutsandbolts/datatypes.html
  *
  */
 
