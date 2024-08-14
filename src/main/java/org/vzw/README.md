@@ -19,19 +19,19 @@
                 - /PickALanguage (`JS`, `Go`, `Python`, `Ruby`, <mark>`Java`</mark>, `C#`, `PHP`, `Rust`)
                     - /LearnTheFundamentals -> ___En esta parte se sigue el Roadmap: [Java](https://roadmap.sh/java)___
                         - /Basics
-                            - `TerminologiaBasica.md`
+                            - [`TerminologiaBasica.md`](PickALanguage/LearnTheFundamentals/Basics/TerminologiaBasica.md)
                         - /TipoDeDatosYVariables
-                            - `VariablesYTiposDeDatos.md`
+                            - [`VariablesYTiposDeDatos.md`](PickALanguage/LearnTheFundamentals/TiposDeDatosYVariables/VariablesYTiposDeDatos.md)
                             - `TipoDeDatos.java`
                         - /Conditionals
-                            - `Readme.md` -> _Definicion de Condicionales_
+                            - [`Readme.md`](PickALanguage/LearnTheFundamentals/Conditionals/Readme.md) -> _Definicion de Condicionales_
                             - `If.java`
                             - `Operadores.java`
                             - `Switch.java`
                             - /Ejercicios
                                 - `{...}`
                         - /Functions
-                            - `Readme.md` -> _Definicion de Funciones_
+                            - [`Readme.md`](PickALanguage/LearnTheFundamentals/Functions/Readme.md) -> _Definicion de Funciones_
                             - `JavaMethods.java`
                             - `JavaMethodParameters.java`
                             - `JavaMethodOverloading.java`
@@ -40,14 +40,14 @@
                             - /Ejercicios
                                 - `{...}`
                         - /Loops
-                            - `readme.md` -> _Definicion de Loops_
+                            - [`Readme.md`](PickALanguage/LearnTheFundamentals/Loops/Readme.md) -> _Definicion de Loops_
                             - `ForLoop.java`
                             - `WhileLoop.java`
                             - `DoWhileLoop.java`
                             - /Ejercicios
                                 - `{...}`
                         - /ExceptionHandling
-                            - `Readme.md` -> _Todo Sobre Manejo de Excepciones_
+                            - [`Readme.md`](PickALanguage/LearnTheFundamentals/ExceptionHandling/Readme.md) -> _Todo Sobre Manejo de Excepciones_
                             - `TryCatch.java`
                             - `MultipleTryCatch.java`
                             - `NestedTryBlock.java`
@@ -75,14 +75,14 @@
                             - /Ejercicios 
                                - `{...}`
                         - /DataStructures
-                            - `Readme.md` -> _Resumen de las Estructuras de Datos_
-                            - `Introduccion.md`
-                            - `Algoritmos.md`
-                            - `Analisis Asintotico.md`
-                            - `Pointer.md`
-                            - `Estructura.md`
+                            - [`Readme.md`](PickALanguage/LearnTheFundamentals/DataStructures/Readme.md) -> _Resumen de las Estructuras de Datos_
+                            - [`Introduccion.md`](PickALanguage/LearnTheFundamentals/DataStructures/Introduccion.md)
+                            - [`Algoritmos.md`](PickALanguage/LearnTheFundamentals/DataStructures/Algoritmos.md)
+                            - [`Analisis Asintotico.md`](PickALanguage/LearnTheFundamentals/DataStructures/Analisis%20Asintotico.md)
+                            - [`Pointer.md`](PickALanguage/LearnTheFundamentals/DataStructures/Pointer.md)
+                            - [`Estructura.md`](PickALanguage/LearnTheFundamentals/DataStructures/Estructura.md)
                             - /DSArray
-                                - `Readme.md` -> _Que son los Arrays_
+                                - [`Readme.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSArrays/Readme.md) -> _Que son los Arrays_
                                 - `Declaracion.java`
                                 - `AccesoAElementos.java`
                                 - `ArreglosMultidimencionales.java`
@@ -90,24 +90,24 @@
                                 - /Ejercicios
                                     - `{...}`
                             - /DSLinkedList
-                                - `Readme.md` -> _Que son las Listas Enlazadas_
+                                - [`Readme.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSLinkedList/Readme.md) -> _Que son las Listas Enlazadas_
                                 - /SinglyLinkedList
-                                    - `Lista Enlazada Simple.md`
+                                    - [`Lista Enlazada Simple.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSLinkedList/SinglyLinkedList/Lista%20Enlazada%20Simple.md)
                                     - `Node.java`
                                     - `SinglyLinkedList.java`
                                     - `Declaracion.java` -> _Como usar la clase `SinglyLinkedList.java`_
                                 - /DoublyLinkedList
-                                    - `Lista enlazada Doble.md`
+                                    - [`Lista enlazada Doble.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSLinkedList/DoublyLinkedList/Lista%20Enlazada%20Doble.md)
                                     - `Node.java`
                                     - `Node.java`
                                     - `Declaracion.java` -> _Como usar la clase `DoublyLinkedList.java`_
                                 - /CircularSinglyLinkedList
-                                    - `Lista Enlazada Simple Circular.md`
+                                    - [`Lista Enlazada Simple Circular.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSLinkedList/CircularSinglyLinkedList/Lista%20Enlazada%20Simple%20Circular.md)
                                     - `Node.java`
                                     - `CircularSinglyLinkedList.java`
                                     - `Declaracion.java` -> _Como usar la clase `CircularSinglyLinkedList.java`_
                                 - /CircularDoublyLinkedList
-                                    - `Lista Enlazada Circular Doble.md`
+                                    - [`Lista Enlazada Circular Doble.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSLinkedList/CircularDoublyLinkedList/Lista%20Enlazada%20Circular%20Doble.md)
                                     - `Node.java`
                                     - `CircularDoublyLinkedList.java`
                                     - `Declaracion.java` -> _Como usar la clase `CircularDoublyLinkedList.java.java`_
