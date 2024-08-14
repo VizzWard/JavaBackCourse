@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.Basics;
+package org.vzw.PickALanguage.LearnTheFundamentals.TiposDeDatosYVariables;
 
 /**
  * Java es de tipado estático, lo que significa que todas las variables deben declararse antes de poder utilizarse.
