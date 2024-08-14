@@ -1,4 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSStacks;
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSStacks.StackList;
 
 public class ImplementacionConListas {
     public static void main(String[] args) {

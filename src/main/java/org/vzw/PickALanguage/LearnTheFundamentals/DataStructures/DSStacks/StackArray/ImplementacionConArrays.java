@@ -1,5 +1,4 @@
-package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSStacks;
-
+package org.vzw.PickALanguage.LearnTheFundamentals.DataStructures.DSStacks.StackArray;
 
 // Clase principal para ejecutar el código
 public class ImplementacionConArrays {
@@ -82,17 +81,17 @@ class Stack {
     }
 
     // Función de utilidad para devolver el tamaño de la stack
-    public int size() {
+    int size() {
         return top + 1;
     }
 
     // Función de utilidad para verificar si la stack está vacía o no
-    public boolean isEmpty() {
+    boolean isEmpty() {
         return top == -1;               // o return size() == 0;
     }
 
     // Función de utilidad para verificar si la stack está llena o no
-    public boolean isFull() {
+    boolean isFull() {
         return top == n - 1;     // o return size() == capacity;
     }
 }
