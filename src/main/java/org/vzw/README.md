@@ -10,7 +10,7 @@
         - /org
             - /vzw
                 - /Internet
-                    - `Como Funciona Internet.md`
+                    - [`Como Funciona Internet.md`](Internet/Como%20Funciona%20Internet.md)
                     - `Que es HTTP.md`
                     - `Que es un nombre de dominio.md`
                     - `Hosting.md`
