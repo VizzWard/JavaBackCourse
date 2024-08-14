@@ -11,11 +11,11 @@
             - /vzw
                 - /Internet
                     - [`Como Funciona Internet.md`](Internet/Como%20Funciona%20Internet.md)
-                    - `Que es HTTP.md`
-                    - `Que es un nombre de dominio.md`
-                    - `Hosting.md`
-                    - `Que es DNS.md`
-                    - `Como Funcionan Los Navegadores.md`
+                    - [`Que es HTTP.md`](Internet/Que%20es%20HTTP.md)
+                    - [`Que es un nombre de dominio.md`](Internet/Que%20es%20un%20nombre%20de%20dominio.md)
+                    - [`Hosting.md`](Internet/Hosting.md)
+                    - [`Que es DNS.md`](Internet/Que%20es%20DNS.md)
+                    - [`Como Funcionan Los Navegadores.md`](Internet/Cómo%20funcionan%20los%20navegadores.md)
                 - /PickALanguage (`JS`, `Go`, `Python`, `Ruby`, <mark>`Java`</mark>, `C#`, `PHP`, `Rust`)
                     - /LearnTheFundamentals -> ___En esta parte se sigue el Roadmap: [Java](https://roadmap.sh/java)___
                         - /Basics
