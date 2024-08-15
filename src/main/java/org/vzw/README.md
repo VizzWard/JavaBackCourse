@@ -111,10 +111,32 @@
                                     - `Node.java`
                                     - `CircularDoublyLinkedList.java`
                                     - `Declaracion.java` -> _Como usar la clase `CircularDoublyLinkedList.java.java`_
+                                - /ClaseJavaUtilLinkedList
+                                    - `{...}` 
                             - /DSStack
-                                - `{...}` 
+                                - [`Readme.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSStacks/Readme.md) -> _Que son los Stacks?_
+                                - /StackArray
+                                    - [`Implementacion de Stack en Arrays.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSStacks/StackArray/Implementacion%20de%20Stack%20en%20Arrays.md)
+                                    - `ImplementacionConArrays.java`
+                                - /StackList 
+                                    - [`Implementacion de Stack en Listas Enlazadas.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSStacks/StackList/Implementación%20de%20Stack%20en%20Listas%20Enlazadas.md)
+                                    - `ImplementacionConListas.java`
+                                - /ClaseJavaUtilStack
+                                    - `{...}`
                             - /DSQueue
-                                - `{...}` 
+                                - [`Readme.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSQueue/Readme.md) -> _Que son la Queues_
+                                - [`Tipo de Queues.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSQueue/Tipo%20de%20Queues.md)
+                                - /QueueArray
+                                    - [`Representacion en Array de las Queues.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSQueue/QueueArray/Representación%20en%20Array%20de%20las%20Queues.md)
+                                    - `QueueArray.java`
+                                - /QueueList
+                                    - [`Lista enlazada de colas.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSQueue/QueueList/Lista%20enlazada%20de%20Queues.md)
+                                    - `QueueLinkedList.java`
+                                - /CircularQueue
+                                    - [`Circular Queue.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSQueue/CircularQueue/Circular%20Queue.md) 
+                                    - `CircularQueue.java`
+                                - /ClaseJavaUtilQueue
+                                    - `{...}`
                             - /DSTree
                                 - `{...}` 
                             - /DSGraph
