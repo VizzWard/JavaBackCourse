@@ -163,6 +163,11 @@
                                     - `BTreeNode.java`
                                     - `BTree.java`
                                     - `Implementacion.java`
+                                - /BPlusTree
+                                    - [`B+ Tree.md`](PickALanguage/LearnTheFundamentals/DataStructures/DSTree/BPlusTree/B+%20Tree.md)
+                                    - `BPlusTreeNode.java`
+                                    - `BPlusTree.java`
+                                    - `Implementacion.java`
                             - /DSGraph
                                 - `{...}` 
                             - /DSSearching
