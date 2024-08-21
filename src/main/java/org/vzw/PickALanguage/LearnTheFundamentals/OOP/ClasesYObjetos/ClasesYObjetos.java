@@ -2,6 +2,11 @@ package org.vzw.PickALanguage.LearnTheFundamentals.OOP.ClasesYObjetos;
 
 import java.io.*;
 
+// Interfaz
+interface Imprimible {
+    void imprimir();
+}
+
 // Clase externa
 public class ClasesYObjetos {
     // Variable de instancia
