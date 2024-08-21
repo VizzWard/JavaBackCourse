@@ -12,8 +12,8 @@ Supongamos que tienes que realizar la suma de los números dados pero puede habe
 
 **Diferentes formas de sobrecargar el método**:
 
-- [Cambiando el número de argumentos.](../MethodOverloading1.java)
-- [Cambiando el tipo de datos.](../MethodOverloading2.java)
+- [Cambiando el número de argumentos.](MethodOverloading1.java)
+- [Cambiando el tipo de datos.](MethodOverloading2.java)
 
 ## ¿Por qué la sobrecarga de métodos no es posible cambiando únicamente el tipo de retorno del método?
 
