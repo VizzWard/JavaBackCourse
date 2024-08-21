@@ -79,8 +79,8 @@ Como se muestra en el diagrama anterior, byte puede promoverse a short, int, lon
 
 ### Ejemplos
 
-- [Ejemplo de sobrecarga de métodos con TypePromotion](../OverloadingCalculation1.java)
-- [Ejemplo de sobrecarga de métodos con promoción de tipos si se encuentran coincidencias](../OverloadingCalculation2.java)
-- [Ejemplo de sobrecarga de métodos con promoción de tipos en caso de ambigüedad](../OverloadingCalculation3.java)
+- [Ejemplo de sobrecarga de métodos con TypePromotion](OverloadingCalculation1.java)
+- [Ejemplo de sobrecarga de métodos con promoción de tipos si se encuentran coincidencias](OverloadingCalculation2.java)
+- [Ejemplo de sobrecarga de métodos con promoción de tipos en caso de ambigüedad](OverloadingCalculation3.java)
 
 > Un tipo no se despromueve implícitamente, por ejemplo, double no puede despromoverse a ningún tipo implícitamente.
