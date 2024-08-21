@@ -16,8 +16,8 @@
                     - [`Hosting.md`](Internet/Hosting.md)
                     - [`Que es DNS.md`](Internet/Que%20es%20DNS.md)
                     - [`Como Funcionan Los Navegadores.md`](Internet/Cómo%20funcionan%20los%20navegadores.md)
-                - /PickALanguage (`JS`, `Go`, `Python`, `Ruby`, <mark>`Java`</mark>, `C#`, `PHP`, `Rust`)
-                    - /LearnTheFundamentals -> ___En esta parte se sigue el Roadmap: [Java](https://roadmap.sh/java)___
+                - /PickALanguage (`JS`, `Go`, `Python`, `Ruby`, <mark>`Java`</mark>, `C#`, `PHP`, `Rust`) -> ___En esta parte se sigue el Roadmap: [Java](https://roadmap.sh/java)___
+                    - /LearnTheFundamentals
                         - /Basics
                             - [`TerminologiaBasica.md`](PickALanguage/LearnTheFundamentals/Basics/TerminologiaBasica.md)
                         - /TipoDeDatosYVariables
@@ -168,24 +168,51 @@
                                     - `BPlusTreeNode.java`
                                     - `BPlusTree.java`
                                     - `Implementacion.java`
-                            - /DSGraph
+                            - /DSGraph -> _Pa luego_
                                 - `{...}` 
-                            - /DSSearching
+                            - /DSSearching -> _Pa luego_
                                 - `{...}` 
-                            - /DSSorting
+                            - /DSSorting -> _Pa luego_
                                 - `{...}`
-                        - /DateAndTime
-                            - `{...}` 
                         - /OOP
-                            - `{...}` 
-                        - /Interfaces
-                            - `{...}` 
-                        - /Classes
-                            - `{...}` 
+                            - /Clases
+                                - [`Clases.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/Clases.md)
+                                - [`Objetos.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/Objetos.md)
+                                - `ClasesYObjetos.java`
+                                - /Constructor
+                                    - [`Constructor.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/Constructor/Constructor.md)
+                                    - `ConstructorEjemplo.java`
+                                    - `UsoDeConstructor.java`
+                                - /Static
+                                    - [`Static.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/Static/Static.md)
+                                    - `StaticEjemplo.java`
+                                    - `UsosDeStatic.java`
+                                - /This
+                                    - [`This.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/This/This.md)
+                                    - [`Case 1.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/This/Case%201.md)
+                                    - [`Case 2.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/This/Case%202.md)
+                                    - [`Case 3.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/This/Case%203.md)
+                                    - [`Case 4.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/This/Case%204.md)
+                                    - [`Case 5.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/This/Case%205.md)
+                                    - [`Case 6.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/This/Case%206.md)
+                                    - `UsosDeThis.java`
+                            - /Herencia
+                                - [`Herencia.md`](PickALanguage/LearnTheFundamentals/OOP/Herencia/Herencia.md) 
+                                - `SingleInheritance.java`
+                                - `MultilevelInheritance.java`
+                                - `HierarchicalInheritance.java`
+                                - `MultipleInheritance.java`
+                                - ` HybridInheritance.java`
+                                - [`Aggregation.md`](PickALanguage/LearnTheFundamentals/OOP/Herencia/Aggregation.md)
+                                - `Agregacion.java`
+                            - /Polimorfismo
+                                - `{...}` 
                         - /Packages
                             - `{...}` 
                         - /WorkingFilesAndAPI
                             - `{...}` 
+                        - /DateAndTime
+                            - `{...}`
                     - /GettingDeeper
                         - `{...}` 
                     - /Buildtools
