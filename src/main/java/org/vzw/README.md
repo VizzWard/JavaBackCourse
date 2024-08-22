@@ -175,6 +175,7 @@
                             - /DSSorting -> _Pa luego_
                                 - `{...}`
                         - /OOP
+                            - [`OOPs Concepts.md`](PickALanguage/LearnTheFundamentals/OOP/OOPs%20Concepts.md)
                             - /Clases
                                 - [`Clases.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/Clases.md)
                                 - [`Objetos.md`](PickALanguage/LearnTheFundamentals/OOP/ClasesYObjetos/Objetos.md)
@@ -276,6 +277,20 @@
                                     - `NestedInterfaceExample.java`
                                     - `NestedInterfaceExample.java`
                                     - `NestedClassInInterfaceExample.java`
+                            - /Encapsulacion
+                                -  [`Encapsulation.md`](PickALanguage/LearnTheFundamentals/OOP/Encapsulacion/Encapsulation.md)
+                                - `EncapsulationExample1.java`
+                                - `EncapsulationExample2.java`
+                            - /Association
+                                - [`Association.md`](PickALanguage/LearnTheFundamentals/OOP/Association/Association.md)
+                                - [`Composition.md`](PickALanguage/LearnTheFundamentals/OOP/Association/Composition.md)
+                                - `AggregationExample.java`
+                                - `CompositionExample.java`
+                                - `IsAExample.java`
+                                - `HasAExampleComposition.java`
+                                - `AggregationExample2.java`
+                                - `CompositionExample.java`
+                                - `GFG.java`
                         - /Packages
                             - `{...}` 
                         - /WorkingFilesAndAPI
