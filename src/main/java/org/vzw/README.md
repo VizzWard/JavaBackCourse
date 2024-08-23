@@ -292,7 +292,22 @@
                                 - `CompositionExample.java`
                                 - `GFG.java`
                         - /Packages
-                            - `{...}` 
+                            - [`Java Package` ](PickALanguage/LearnTheFundamentals/Packages/Java%20Package.md)
+                            - [`Ejercicios` ](PickALanguage/LearnTheFundamentals/Packages/Ejerciciois.md)
+                            - /pack1
+                                - `Example1.java`
+                                - `Example1Main.java`
+                                - `ClassA.java`
+                                - `ClassPublic1.java`
+                                - `ClassPublic2.java`
+                            - /pack2
+                                - `ClassB.java`
+                                - `ClassB2.java`
+                                - `ClassB3.java`
+                                - `ClassD.java`
+                                - `StaticImportExample.java`
+                            - /subpack
+                                - `Classc.java` 
                         - /WorkingFilesAndAPI
                             - `{...}` 
                         - /DateAndTime
