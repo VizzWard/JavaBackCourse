@@ -48,5 +48,5 @@ out/
 
 ### Archivos Especificos ###
 objeto.ser
-/src/main/java/org/vzw/PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/CargarArchivos/directorio/
-/src/main/java/org/vzw/PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/EscrituraLecturaDeArchivos/directorio/
+/src/main/java/org/vzw/PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/CargarArchivos/directorio/
+/src/main/java/org/vzw/PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/EscrituraLecturaDeArchivos/directorio/
