@@ -16,11 +16,28 @@
 
     <dependencies>
         <!-- Aquí van todas las dependencias -->
+
+        <!-- Dependencia para commons-io -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.11.0</version> <!-- Verifica la versión más reciente -->
         </dependency>
+
+        <!-- Dependencia para memoryfilesystem -->
+        <dependency>
+            <groupId>com.github.marschall</groupId>
+            <artifactId>memoryfilesystem</artifactId>
+            <version>2.1.0</version> <!-- Verifica la versión más reciente -->
+        </dependency>
+
+        <!-- Dependencia para JimFS -->
+        <dependency>
+            <groupId>com.google.jimfs</groupId>
+            <artifactId>jimfs</artifactId>
+            <version>1.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>
