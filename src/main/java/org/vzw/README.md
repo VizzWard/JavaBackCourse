@@ -338,6 +338,12 @@
                                     - `MemoryFileSystem.java`
                                     - `JimFS.java`
                             - /FileClass
+                                - [`Java File Class.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/FileClass/Java%20File%20Class.md)
+                                - `FileDemo.java`
+                                - `FileDemo2.java`
+                                - `FileExmaple.java`
+                                - `FileExmaple2.java`
+                            - /JavaHttpURLConnection
                         - /DateAndTime
                             - `{...}`
                     - /GettingDeeper
