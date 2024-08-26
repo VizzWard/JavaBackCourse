@@ -59,6 +59,7 @@
                             - `FinalOrFinallyOrFinalize.java`
                             - `ExceptionHandlingwithMethodOverriding.java`
                             - `CustomExceptions.java`
+                            - `try-with-resources` <- investigar del tema
                             - /Extras
                                 - `Testthrows2.java` -> _Parte del Bloque `ThrowsKeyword.java`_
                                 - `Testthrows3.java` -> _Parte del Bloque `ThrowsKeyword.java`_
@@ -309,7 +310,34 @@
                             - /subpack
                                 - `Classc.java` 
                         - /WorkingFilesAndAPI
-                            - `{...}` 
+                            - /WorkWithFiles 
+                                - [`Java File APIs.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/Java%20File%20APIs.md)
+                                - /CargarArchivos
+                                    - [`Paths API.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/CargarArchivos/Paths%20API.md)
+                                    - [`Common File Operations.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/CargarArchivos/Common%20File%20Operations.md)
+                                    - `PathTest.java`
+                                - /EscrituraLecturaDeArchivos
+                                    - [`Escritura y lectura de archivos.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/EscrituraLecturaDeArchivos/Escritura%20y%20lectura%20de%20archivos.md)
+                                    - `Escribir.java`
+                                - /CadenaDeTextoOByte
+                                    - [`Diferencia.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/CadenaDeTextoOByte/Diferencia.md)
+                                    - `Example1.java`
+                                    - `Example2.java`
+                                - /MoverBorrarListar
+                                    -  [`Moving, Deleting & Listing Files.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/MoverBorrarListar/Moving,%20Deleting%20&%20Listing%20Files.md)
+                                    - `MovingDeletingListing.java`
+                                - /AbsoluteRelativeCanonicalFiles
+                                    - [`Absolute, Relative & Canonical Files.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/AbsoluteRelativeCanonicalFiles/Absolute,%20Relative%20&%20Canonical%20Files.md)
+                                    - `AbsoluteRelativeCanonicalFiles.java`
+                                - /WatchingFilesDirectories
+                                    - [`Watching Files & Directories.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/WatchingFilesDirectories/Watching%20Files%20&%20Directories.md)
+                                    - `UseOfWatchService.java`
+                                    - `UseOfApacheCommons.java`
+                                - /InMemoryFileSystems
+                                    - [`In-Memory File Systems.md`](PickALanguage/LearnTheFundamentals/WorkingFilesAndAPI/WorkWithFiles/InMemoryFileSystems/In-Memory%20File%20Systems.md)
+                                    - `MemoryFileSystem.java`
+                                    - `JimFS.java`
+                            - /FileClass
                         - /DateAndTime
                             - `{...}`
                     - /GettingDeeper
