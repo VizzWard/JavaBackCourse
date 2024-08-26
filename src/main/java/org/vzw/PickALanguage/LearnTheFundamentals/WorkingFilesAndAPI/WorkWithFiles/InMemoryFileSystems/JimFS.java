@@ -24,7 +24,7 @@ public class JimFS {
             // Escribir en el archivo simulado en memoria
             Files.writeString(inMemoryFile, "Hello World from JimFS!");
 
-            // Leer y mostrar el contenido del archivo en memoria
+            // Leer y mostrar el contenido del archivo en memoria.
             System.out.println(Files.readString(inMemoryFile));
         }
     }

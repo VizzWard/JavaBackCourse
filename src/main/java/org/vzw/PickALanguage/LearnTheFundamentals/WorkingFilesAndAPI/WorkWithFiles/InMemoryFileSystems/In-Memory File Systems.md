@@ -168,4 +168,4 @@ Este código asegura que `inMemoryPath` se refiere a una ruta dentro del sistema
 
 ### Desafíos en Proyectos Legados
 
-En proyectos más antiguos (legado), es posible que gran parte del código utilice `Path.of` o `Paths.get` porque estos métodos son convenientes y comunes. Cambiar todo el código para utilizar sistemas de archivos en memoria puede ser un desafío significativo, ya que implica reemplazar cada instancia de `Path.of` o `Paths.get` con código que trabaje directamente con el `FileSystem` en memoria.
+En proyectos más antiguos (legado), es posible que gran parte del código utilice `Path.of` o `Paths.get` porque estos métodos son convenientes y comunes. Cambiar todo el código para utilizar sistemas de archivos en memoria puede ser un desafío significativo, ya que implica reemplazar cada instancia de `Path.of` o `Paths.get` con código que trabaje directamente con el `FileSystem` en memoria..

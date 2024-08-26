@@ -22,7 +22,7 @@ public class MemoryFileSystem {
             Path inMemoryFile = directory.resolve("file.txt");
             Files.writeString(inMemoryFile, "Hello World");
 
-            // Leer el contenido del archivo y mostrarlo en consola
+            // Leer el contenido del archivo y mostrarlo en consola.
             System.out.println(Files.readString(inMemoryFile));
         }
     }
